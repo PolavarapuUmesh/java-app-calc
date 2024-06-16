@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: target/.war
-    destination: /usr/local/tomcat/webapps/ROOT.war
+  - source: target/calc.jar
+    destination: /opt/tomcat/webapps
 
 hooks:
   BeforeInstall:
