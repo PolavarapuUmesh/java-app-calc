@@ -1,2 +1,1 @@
-sudo systemctl stop tomcat
-sudo systemctl status tomcat
+sudo bash /opt/tomcat/bin/shutdown.sh
