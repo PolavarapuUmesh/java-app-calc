@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: target/calc.jar
+  - source: target/Calculator-1.0-SNAPSHOT.jar
     destination: /opt/tomcat/webapps
 
 hooks:
