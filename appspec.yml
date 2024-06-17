@@ -10,6 +10,6 @@ hooks:
       timeout: 300
       runas: ubuntu
   AfterInstall:
-    - location:/home/ubuntu/startsh
+    - location:/home/ubuntu/start.sh
       timeout: 300
       runas: ubuntu
