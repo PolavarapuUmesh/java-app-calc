@@ -1,1 +1,1 @@
-sudo systemctl start tomcat
+sudo bash /opt/tomcat/bin/startup.sh
