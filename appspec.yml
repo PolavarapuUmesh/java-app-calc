@@ -6,10 +6,10 @@ files:
 
 hooks:
   BeforeInstall:
-    - location: /opt/tomcat/bin/shutdown.sh
+    - location: /home/ubuntu/stop.sh
       timeout: 300
       runas: ubuntu
   AfterInstall:
-    - location: /opt/tomcat/bin/startup.sh
+    - location:/home/ubuntu/startsh
       timeout: 300
       runas: ubuntu
